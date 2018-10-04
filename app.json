@@ -1,0 +1,6 @@
+{
+  "name": "OmniAuth redirect proxy",
+  "description": "",
+  "repository": "https://github.com/fs/omniauth-redirect-proxy",
+  "keywords": ["ruby", "omniauth", "oauth2"]
+}

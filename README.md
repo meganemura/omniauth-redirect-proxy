@@ -33,7 +33,9 @@ And encode `request.base_url` with `Base64.encode64` in to `state` parameter.
 
 ## Deploy
 
-Just deploy to Heroku as regular Ruby application
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+Or just deploy to Heroku as regular Ruby application
 
 ```bash
 heroku create
