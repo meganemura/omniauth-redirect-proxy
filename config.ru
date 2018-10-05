@@ -9,7 +9,7 @@ class RedirectProxy
 
   def call(env)
     @request = Rack::Request.new(env)
-    @base_url = URI.parse(Base64.decode64(@request.params["state"]))
+    @base_url = URI.parse(Base64.decode64(@request.params["state"] || ""))
 
     [301, { "Location" => url }, []]
   end
